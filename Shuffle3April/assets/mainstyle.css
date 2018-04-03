@@ -1,0 +1,496 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #2a3858;
+ text-align: center;
+ padding: 15px;
+}
+body {
+	background: linear-gradient(to right, #0f1423, #2a3858);
+	max-width: 100%;
+	overflow-x: hidden;
+}
+/*loading page start*/
+#loader {
+	background-color: #fbfbfb;
+	height: 100%;
+	width: 100%;
+	padding-top: 18%;
+	position: fixed;
+	z-index: 1;
+	top: 0px;
+}
+#loader img {
+	width: 15%;
+}
+#titlebar {
+	margin-top: 30px;
+	max-width: 1200px;
+}
+/*loading page end*/
+#header {
+	background: #0f1525;
+	height: 100px;
+	-webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5));
+	filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.35));
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 50px;
+}
+#headerlogo {
+	width: 10%;
+}
+#burgermenu:hover {
+	cursor: pointer;
+	-webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.5));
+	filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.35));
+}
+.menuicon {
+	width: 45px;
+	height: 6px;
+	background-color: white;
+	margin: 6px 0;
+	margin-left: 20px;
+}
+.header__menu-toggle {
+	background: none;
+	border: none;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+.side-nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	pointer-events: none;
+}
+.side-nav--visible {
+	pointer-events: auto;
+}
+.side-nav::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba( 0,0,0,0.4 );
+	opacity: 0;
+	will-change: opacity;
+	transition: opacity 0.3s cubic-bezier( 0, 0, 0.3, 1 );
+}
+.side-nav__container {
+	position: relative;
+	width: 90%;
+	max-width: 400px;
+	background: transparent;
+	height: 100%;
+	box-shadow: 2px 0 12px rgba( 0,0,0,0.4 );
+	transform: translateX( -102% );
+	display: flex;
+	flex-direction: column;
+	will-change: transform;
+}
+.side-nav--animatable .side-nav__container {
+	transition: transform 0.13s cubic-bezier( 0, 0, 0.3, 1 );
+}
+.side-nav--visible.side-nav--animatable .side-nav__container {
+	transition: transform 0.33s cubic-bezier( 0, 0, 0.3, 1 );
+}
+.side-nav--visible::before {
+	opacity: 1;
+}
+.side-nav--visible .side-nav__container {
+	transform: none;
+}
+.side-nav__hide {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	background: none;
+	border: none;
+	color: #fff;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	font-size: 50px;
+	cursor: pointer;
+}
+.side-nav__header {
+	height: 200px;
+	background: #0f1525;
+	color: #fff;
+	display: flex;
+	padding: 16px;
+	align-items: flex-end;
+	font-size: 24px;
+}
+.side-nav__content {
+	padding-top: 32px;
+	flex: 1;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.side-nav__content li {
+	height: 48px;
+	line-height: 48px;
+	padding: 0 16px;
+	color: white;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+}
+.side-nav__content li:hover {
+	background: #ccc;
+	transition: ease 1s;
+}
+#genres {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 50px 200px;
+}
+.rollover {
+	width: 300px;
+	height: 300px;
+	background: #0c111e;
+	color: #fff;
+	transition: all 0.5s ease-out;
+	margin: 50px
+}
+.rollover p {
+	text-decoration: none;
+	padding-top: 45%;
+}
+.rollover:hover {
+	background-color: #fff;
+	color: #000;
+}
+#burgermenu h1 {
+	font-size: 32px;
+}
+#notmember {
+	font-size: 25px;
+	color: #ffffff;
+}
+#signup a {
+	text-decoration: none;
+	color: #25cf5f;
+	font-size: 20px;
+}
+#signup a:hover {
+	color: #16813a;
+	transition: ease 0.5s;
+}
+.login a {
+	text-decoration: none;
+	color: #25cf5f;
+	font-size: 30px;
+}
+.login a:hover {
+	color: #16813a;
+	transition: ease 0.5s;
+}
+.homebutton {
+	padding-top: 20px;
+}
+.homebutton a {
+	text-decoration: none;
+	color: #25cf5f;
+	font-size: 30px;
+}
+.homebutton a:hover {
+	color: #16813a;
+	transition: ease 0.5s;
+}
+/*Footer*/
+
+#footer {
+	width: 100%;
+	padding: 5px;
+	height: 2000%;
+	background: transparent;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+}
+#footer p {
+	color: #fff;
+	background: transparent;
+}
+#footer img {
+	width: 5%;
+}
+
+#footer social {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	border-bottom: solid 5px #62d4e5;
+	padding: 6em 0 1em 0;
+	position: relative;
+}
+#footer social > * {
+	-moz-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-bottom: 0;
+}
+#footer social .logo {
+	border-bottom: 0;
+	color: inherit;
+	font-family: "Roboto Slab", serif;
+	font-size: 1.125em;
+}
+#footer social .icons {
+	text-align: right;
+}
+
+@media screen and (max-width: 1680px) {
+#footer social {
+	padding-top: 5em;
+}
+}
+
+@media screen and (max-width: 736px) {
+#footer social {
+	padding-top: 6.5em;
+}
+#footer social locial .logo {
+	font-size: 1.25em;
+	margin: 0;
+}
+#footer social .icons {
+	height: 5em;
+	line-height: 5em;
+	position: absolute;
+	right: -0.5em;
+	top: 0;
+}
+}
+
+/*End Footer*/
+#commentscontainer {
+	width: 100%;
+	padding: 5px;
+	height: 460px;
+	background-color: #000;
+	color: #fff;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	position: fixed;
+	bottom: -400px;
+	left: 0px;
+	text-align: center;
+	z-index: 0;
+}
+#main {
+	width: 100%;
+	background: linear-gradient(to right, #0f1423, #2a3858);
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	height: 100vh;
+	text-align: center;
+	margin-bottom: -100px;
+	color: white;
+}
+#mainlogo {
+	margin-left: 42.5%;
+	width: 15%;
+	padding-top: 90px;
+}
+.big {
+	font-size: 40px;
+	margin: 75px;
+}
+form input {
+	color: #2a3858;
+	height: 40px;
+	margin: 25px;
+	padding: 2px;
+	background-color: #0f1423;
+	border: none;
+	width: 30%;
+	border-radius: 7px;
+	text-align: center;
+}
+#login {
+	background-color: #2b3a66;
+	color: white;
+}
+#login:hover {
+	background-color: #25cf5f;
+	transition: ease 1s;
+	color: white;
+	cursor: pointer;
+}
+.logintext {
+	color: #2a3858;
+}
+#register {
+	background-color: #2b3a66;
+	color: white;
+}
+#register:hover {
+	background-color: #25cf5f;
+	transition: ease 1s;
+	color: white;
+	cursor: pointer;
+}
+.registertext {
+	color: #2a3858;
+}
+#loading {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: 225px;
+}
+.subrow {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #efefef;
+	border-bottom: 1px #ccc solid;
+	font-size: 75px;
+	min-height: 200px;
+}
+.subrow .sublinkbar {
+	font-size: 25px;
+	padding: 10px;
+}
+#messages {
+	min-height: 75px;
+}
+.rssitem {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #efefef;
+	border-bottom: 1px #ccc solid;
+	font-size: 20px;
+	min-height: 200px;
+}
+#comcontent {
+	background-color: #fff;
+	width: 90%;
+	height: 300px;
+	margin: 20px auto;
+	color: #000;
+	overflow: scroll;
+}
+.comment {
+	background-color: #eef;
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	border-bottom: 1px #ccc solid;
+}
+.comdate {
+	font-style: italic;
+	font-size: 80%;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 5px;
+	background-color: #dde;
+}
+.comlinks {
+	font-size: 90%;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 5px;
+	background-color: #dde;
+}
+#commentbox {
+	width: 80%;
+	position: relative;
+	bottom: 0;
+	height: 50px;
+	padding: 5px;
+}
+#commentbtn {
+	width: 10%;
+	position: relative;
+	bottom: 35px;
+}
+#clearbtn {
+	width: 10%;
+	position: relative;
+	bottom: 25px;
+	left: 40.5%;
+}
+
+@media only screen and (max-device-width: 600px) {
+#loader img {
+	width: 80%;
+}
+#mainlogo {
+	margin-left: 10%;
+	width: 80%;
+	padding-top: 90px;
+}
+h1 {
+	font-size: 50px;
+}
+form input {
+	color: #2a3858;
+	height: 100px;
+	margin: 25px;
+	padding: 2px;
+	background-color: #0f1423;
+	border: none;
+	width: 80%;
+	border-radius: 7px;
+	text-align: center;
+	font-size: 50px;
+}
+#notmember p {
+	font-size: 50px;
+	color: #ffffff;
+}
+#signup a {
+	font-size: 50px;
+}
+.login a {
+	font-size: 50px;
+}
+#footer {
+	width: 100%;
+	padding: 5px;
+	height: 2000%;
+	background: transparent;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+}
+#footer p {
+	color: #fff;
+	background: transparent;
+}
+#footer img {
+	width: 30%;
+}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.blackpool.ria"
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+    <gap:plugin name="com.indigoway.cordova.whitelist.whitelistplugin" />
+    <access origin="http://*" />
+    <access origin="*" />
+
+    <name>RIA RSS</name>
+
+    <description>
+        An RSS Reader for cool people 
+    </description>
+
+    <author email="30109130@blackpool.ac.uk">
+        Josh soer, Donna Cheltenham, Hollie O'Rieley, Ben Pope and Sam Ashworth.
+    </author>
+
+</widget>

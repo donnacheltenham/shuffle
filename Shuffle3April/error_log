@@ -1,0 +1,36 @@
+[08-Mar-2018 15:15:51 Europe/London] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'networkme_shuffle'@'localhost' (using password: YES) in /home/networkme/public_html/shuffle/dbconnect.inc.php on line 11
+[08-Mar-2018 15:16:27 Europe/London] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'networkme_shuffle'@'localhost' (using password: YES) in /home/networkme/public_html/shuffle/dbconnect.inc.php on line 11
+[15-Mar-2018 15:03:07 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_feed.php on line 18
+[15-Mar-2018 15:03:07 Europe/London] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/networkme/public_html/shuffle/mng_feed.php on line 22
+[15-Mar-2018 15:03:33 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 34
+[15-Mar-2018 15:13:08 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 34
+[15-Mar-2018 15:16:27 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 34
+[15-Mar-2018 15:23:12 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 34
+[15-Mar-2018 15:24:56 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 34
+[15-Mar-2018 15:38:07 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 34
+[15-Mar-2018 16:16:06 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:16:11 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:21:29 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:23:28 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:23:29 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:25:14 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:29:26 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:29:26 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:30:05 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:30:05 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:31:37 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:31:37 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:47:04 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:47:04 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:48:36 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:48:36 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:51:08 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:51:08 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:51:52 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:51:52 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:52:12 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[15-Mar-2018 16:52:12 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[16-Mar-2018 21:28:05 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[16-Mar-2018 21:28:05 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[16-Mar-2018 21:28:26 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
+[16-Mar-2018 21:28:26 Europe/London] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/networkme/public_html/shuffle/mng_subscription.php on line 46
